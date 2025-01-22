@@ -1,0 +1,6 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Validate API functionality,Send GET request to API endpoint > Verify response,API returns valid JSON data with correct structure,API returns valid JSON data with correct structure,Passed,Medium,-,No issues found
+TC002,Test shipment API (POST & GET),Send POST request > Use label_id for GET request,Shipment created successfully > Label details retrieved,Shipment created and retrieved as expected,Passed,High,-,Works as expected
+TC003,Lighthouse report analysis,Run Lighthouse audit > Analyze results,"Scores for performance, accessibility, best practices, and SEO are displayed",Scores analyzed as per task requirements,Passed,Medium,-,Performance optimization recommended
+TC004,Test 'Add to Cart' functionality,Add product to cart > Verify cart contents,Cart updates dynamically with accurate product details,Cart updates as expected,Passed,High,-,Works as expected
+TC005,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly for different screen sizes,Responsive layout working as intended,Passed,Medium,-,Test successful
