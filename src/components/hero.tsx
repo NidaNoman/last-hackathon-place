@@ -38,7 +38,7 @@ const {heroImg, heroParagraph, heroHeading, heroPara, heroBtnText} = await res
               {heroPara}       <br /> 
             
           </p>
-          <Link href={"/Shop"}>
+          <Link href={"/shop"}>
           <button className="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-3 sm:px-8 sm:py-4 lg:px-9 lg:py-5 rounded-lg transition">
             {heroBtnText}
           </button>

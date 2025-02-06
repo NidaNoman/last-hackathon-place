@@ -6,8 +6,9 @@ import productPage from './product-page-sections/productPage'
 import cardsSection from './product-page-sections/cardsSection'
 import shopProduct from './shopproduct.ts/shopProduct'
 import shopCards from './shopproduct.ts/shopCards'
+import userSchema from './user'
 
 
 export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [landingPage , hero , cardSection , productPage, cardsSection , shopProduct, shopCards],
+  types: [landingPage , hero , cardSection , productPage, cardsSection , shopProduct, shopCards,userSchema],
 }

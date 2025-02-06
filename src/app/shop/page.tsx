@@ -21,25 +21,6 @@ interface Product{
  const res: Product[] = await client.fetch(`*[_type == 'productPage'][0].sections[0].Card[]{'cardSecBanner' : cardSecBanner,
   'cardSectionSmallH': cardSectionSmallH,'cardSectionHeading' : cardSectionHeading,'cardSectionOldPrice' :
    cardSectionOldPrice,'cardSectionNewPrice': cardSectionNewPrice,'cardSecImg': cardSecImg.asset -> url,} `)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   return (
     <div>
       <Nas />
@@ -254,37 +235,6 @@ interface Product{
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
     </div>
   );
 }

@@ -1,6 +1,7 @@
 
 
 "use client"
+import { UserButton } from '@clerk/nextjs';
 import { 
   FacebookIcon, Search, ShoppingCart, Heart, Phone, Mail, Instagram, Youtube, Facebook, Twitter, Menu, X
 } from 'lucide-react';
@@ -76,6 +77,7 @@ export default function Header() {
             <Link href="/wishlist">
             <Heart className="w-5 h-5" />
             </Link>
+            <UserButton/>
           </div>
         </div>
 

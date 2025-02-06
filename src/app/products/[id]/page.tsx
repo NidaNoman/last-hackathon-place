@@ -59,14 +59,15 @@ export default async function Product({searchParams,
         </div>
         
         <div className="flex justify-center md:justify-start">
-       
+           <Link href={`/cart?cardSecImg=${cardSecImg}&cardSectionHeading=${cardSectionHeading}&cardSectionNewPrice=${cardSectionPrice}`}>
           <button className="bg-[#23856D] text-white px-8 py-2  mt-4 rounded hover:bg-[#23857D]">
             
             Add Cart 
            
         
           </button>
-    
+          </Link>
+         
           
         </div>
         

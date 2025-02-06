@@ -1,6 +1,7 @@
 
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ProductPromo(){
   return (
@@ -16,9 +17,11 @@ export default function ProductPromo(){
         </p>
         <div className="flex items-center justify-center md:justify-start space-x-4">
           <p className="text-xl md:text-2xl font-semibold">$16.48</p>
+         
           <button className="bg-white text-[#23856D] font-semibold px-4 md:px-6 py-2 rounded hover:bg-gray-100">
             Add to Cart
           </button>
+        
         </div>
       </div>
 
